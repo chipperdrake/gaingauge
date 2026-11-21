@@ -194,3 +194,9 @@ footer p{margin:6px 0;max-width:72ch}
 .wm-g svg{width:100%;height:100%;overflow:visible;display:block}
 .closing .closing-line{font-size:clamp(26px,3.4vw,40px)}
 .closing .wordmark{font-size:clamp(36px,10.5vw,120px);color:var(--frost);margin:0 auto 30px;max-width:none}
+/* Header wordmark: the kettlebell-G "Gain Gauge", ~230px wide on computers, ~180px on phones */
+.brand-wm{display:block;text-decoration:none}
+.wordmark-sm{display:block;font-stretch:125%;font-weight:850;letter-spacing:-.02em;line-height:1;font-size:31px;color:var(--frost);white-space:nowrap;padding-top:6px}
+.brand-wm small{display:block;margin-top:6px;font-size:12px;color:var(--slate);font-stretch:100%;font-weight:400;letter-spacing:0}
+@media (max-width:600px){.wordmark-sm{font-size:24px}}
+.wm-g{margin-right:.04em}
