@@ -200,3 +200,5 @@ footer p{margin:6px 0;max-width:72ch}
 .brand-wm small{display:block;margin-top:6px;font-size:12px;color:var(--slate);font-stretch:100%;font-weight:400;letter-spacing:0}
 @media (max-width:600px){.wordmark-sm{font-size:24px}}
 .wm-g{margin-right:.04em}
+/* Kettlebell-G sized to the reference artwork: body = 1.30x cap height, top at cap line, dips 0.31 cap below baseline; gap 0.13 cap */
+.wm-g{width:1.124em;height:1.231em;top:.244em;margin-left:-.107em;margin-right:-.055em}
