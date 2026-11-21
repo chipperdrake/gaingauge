@@ -225,3 +225,4 @@ footer p{margin:6px 0;max-width:72ch}
 #email{display:inline-flex;align-items:center;min-height:44px;font-size:17px;font-weight:600}
 @media (max-width:520px){.coach{grid-template-columns:104px 1fr;gap:16px;align-items:start;padding:14px}.coach h3{font-size:26px}.coach .tag{margin:2px 0 10px;font-size:15px}.coach blockquote{font-size:16px}}
 @media (max-width:860px){.hero .first{margin-top:4px}.hero .cta-row{gap:6px 18px}}
+.portrait img{display:block}.duo .portrait{align-self:start}
