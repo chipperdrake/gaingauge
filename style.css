@@ -200,3 +200,28 @@ footer p{margin:6px 0;max-width:72ch}
 .brand-wm small{display:block;margin-top:6px;font-size:12px;color:var(--slate);font-stretch:100%;font-weight:400;letter-spacing:0}
 @media (max-width:600px){.wordmark-sm{font-size:24px}}
 /* Hex kettlebell-G: drawn on the Archivo G's own grid (same width, sits on the baseline, flat top on the cap line; only the handle rises above) */
+
+/* How it works: the reps-left picker (replaces the old dial) */
+.picker{width:100%;max-width:520px;justify-self:center;background:linear-gradient(180deg,#0F2232,#0B1A27);border:1px solid var(--rule);border-radius:28px;padding:40px 36px 34px;text-align:center}
+.picker-q{margin:0 0 22px;color:var(--slate);font-size:17px}
+.chips{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.chips span{display:flex;align-items:center;justify-content:center;aspect-ratio:1;border-radius:16px;border:1px solid var(--rule);background:#0A1824;font-stretch:115%;font-weight:700;font-size:22px;color:var(--slate)}
+.chips span.on{background:var(--ice);border-color:var(--ice);color:var(--ink);box-shadow:0 0 0 6px rgba(34,195,238,.16)}
+.picker .caption{margin-top:26px}
+.picker .caption b{display:block;font-stretch:125%;font-weight:800;font-size:28px;letter-spacing:-.01em}
+.picker .caption span{color:var(--slate);font-size:15px}
+@media (max-width:480px){.picker{padding:30px 18px 26px}.chips{gap:7px}.chips span{font-size:18px;border-radius:12px}.picker .caption b{font-size:24px}}
+.hero .first{margin:14px 0 0;color:var(--slate);font-size:15px}
+.hero .hero-h1{font-size:clamp(34px,3.75vw,56px);line-height:1.04}.hero-h1 span{display:block;white-space:nowrap}
+@media (min-width:861px){.hero.hero-coaches{grid-template-columns:1.22fr .78fr}}
+/* Phones: headline wraps instead of running off screen; every link is a comfortable tap (44px tall) */
+.hero-h1 span{white-space:normal}
+@media (min-width:861px){.hero-h1 span{white-space:nowrap}}
+@media (max-width:860px){.hero .hero-h1{font-size:clamp(34px,9.6vw,56px)}}
+.top nav a,footer nav a{display:inline-flex;align-items:center;min-height:44px}
+.top nav{align-items:center}
+.textlink{display:inline-flex;align-items:center;min-height:44px;padding-bottom:0;border-bottom:0;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:6px}
+.brand-wm small{font-size:13px}
+#email{display:inline-flex;align-items:center;min-height:44px;font-size:17px;font-weight:600}
+@media (max-width:520px){.coach{grid-template-columns:104px 1fr;gap:16px;align-items:start;padding:14px}.coach h3{font-size:26px}.coach .tag{margin:2px 0 10px;font-size:15px}.coach blockquote{font-size:16px}}
+@media (max-width:860px){.hero .first{margin-top:4px}.hero .cta-row{gap:6px 18px}}
